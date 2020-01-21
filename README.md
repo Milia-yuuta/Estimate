@@ -1,5 +1,6 @@
 # README
-![](https://img.shields.io/badge/a-a-brightgreen)
+![](https://img.shields.io/badge/ruby-2.5.1-red)
+![](https://img.shields.io/badge/rails-5.2.4.1-red)
 
 ## Name:ちょっこと見積もり
 
@@ -42,6 +43,8 @@
 ## Install
 https://github.com/Milia-yuuta/Estimate.git
 
-## Contribution
+## Licence
+[Licence](https://raw.githubusercontent.com/Milia-yuuta/Estimate/master/LICENSE)
 
 ## Author
+[Twitter](https://twitter.com/yuuta_sakurada)
