@@ -7,7 +7,7 @@
 保存した見積もり内容はCSV形式でダウンロードできます。  
 
 ## Demo
-![demo](https://gyazo.com/ee4a58158f9b69810cf60a291780d8f3)
+[![Image from Gyazo](https://i.gyazo.com/ee4a58158f9b69810cf60a291780d8f3.gif)](https://gyazo.com/ee4a58158f9b69810cf60a291780d8f3)
 
 ## Usage
 このアプリには下記の機能があります。
