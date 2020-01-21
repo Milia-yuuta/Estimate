@@ -1,0 +1,20 @@
+.content
+  .content__main
+    .content__main__title
+      %p 算出方法・・・チャージ*重量*材料代+送料+管理費　=合計
+    = form_with(model:@calculations) do |f|
+      %p.content__main__sub 品名
+      =f.text_field :title,value:"sample";
+      %p.content__main__sub チャージ/h = ¥
+      = f.number_field :charge, value:0,id:"price",class:"price1",step: "0.01";
+      %p.content__main__sub 重量/kg = ¥
+      = f.number_field :weight, value:0,id:"price",class:"price2",step: "0.1";
+      %p.content__main__sub 材料代/kg = ¥
+      = f.number_field :material_cost, value:0,id:"price",class:"price3",step: "0.1";
+      %p.content__main__sub 送料 = ¥
+      = f.number_field :postage, value:0,id:"price",class:"price4";
+      %p.content__main__sub 管理費 = ¥
+      = f.number_field :administration_cost, value:0,id:"price",class:"price5";
+      %p.content__main__sub 合計 = ¥
+      = f.number_field :total_cost, value:0,id:"price_form";
+      = f.submit "登録" ,class:"submit_f";

@@ -1,0 +1,117 @@
+body{
+  background-color: #f6f6f6;
+  min-width: 650px;
+  height: 750px;
+  font-family: "arial";
+  background-color: #99CC66;
+  box-sizing: border-box;
+  .header{
+    height: 56px;
+    padding: 0 150px;
+    background-color: #b82054;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    &__title{
+      font-size: 30px;
+      line-height: 56px;
+      &--text{
+        text-decoration: none;
+        color: #fff;
+      }
+    }
+    &__right{
+      &--btn{
+        text-decoration: none;
+        line-height: 56px;
+        color: #fff;
+        margin-left:15px;
+      }
+    }
+  }}
+.contents{
+    margin: 10px auto 0;
+    padding:10px;
+    background-color: #fff;
+    height: 600px;
+    width: 95%;
+    overflow: scroll;
+}
+.data_base__title-1{
+  font-size: 20px;
+  
+  text-align:center;
+  display: flex;
+  &__value{
+    width: 110px;
+    text-align:center;
+    &__value{
+    }
+  }
+}
+.main__tag{
+  font-size: 20px;
+  text-align:center;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.data_base{
+  display: flex;
+  font-size: 20px;
+  text-align:center;
+  border: thin;
+  margin:5px 0px;
+  &__title{
+    width: 110px;
+    text-align:center;
+    &__value{
+      border: solid;
+    }
+  }
+}
+form{
+  margin:40px 80px;
+}
+.content__main{
+  &__title{
+    text-align: center;
+  }
+  &__sub{
+    margin-top: 15px;
+  }
+}
+.submit_f{
+  margin-left: 15px;
+}
+.btn-warning1{
+  margin-top: 30px;
+  &__btn{
+    color: blue;
+  }
+}
+.edit_title{
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.Manage{
+  display: flex;
+  &__edit{
+    width: 40px;
+    display: block;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color:#55c500;
+    padding: 0 10px;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  &__destroy{
+    width: 40px;
+    display: block;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color:#55c500;
+    padding: 0 10px;
+    text-decoration: none;
+    margin-left: 10px;
+}}

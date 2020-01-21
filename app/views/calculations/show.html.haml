@@ -1,0 +1,25 @@
+.data_base
+  %ul.data_base__title
+    %li.data_base__title__value
+      =@c.title
+  %ul.data_base__title
+    %li.data_base__title__value
+      =@c.charge
+  %ul.data_base__title
+    %li.data_base__title__value
+      =@c.weight
+  %ul.data_base__title
+    %li.data_base__title__value
+      =@c.postage
+  %ul.data_base__title
+    %li.data_base__title__value
+      =@c.administration_cost
+  %ul.data_base__title
+    %li.data_base__title__value
+      =@c.total_cost
+  %ul.data_base__title
+    %li.data_base__title__value
+      =@c.created_at.strftime("%Y-%m-%d")
+.Manage
+  = link_to "編集", edit_calculation_path(@c.id), class: "Manage__edit"
+  = link_to "削除", calculation_path(@c.id),method: :delete ,class: "Manage__destroy"
