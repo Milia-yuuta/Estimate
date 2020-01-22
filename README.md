@@ -4,17 +4,25 @@
 
 ## Name:ちょっこと見積もり
 
-## Description
+## 📕Description
 外出先などで簡易的な樹脂見積もりを作成し保存することができます。  
 保存した見積もり内容はCSV形式でダウンロードできます。  
 
-## Demo
+
+## 📕制作背景/工夫した点
+  前職で外出機会が多くなかなか事務作業の時間が取れなかったため、  
+  外出先で手軽にメモ感覚の見積もり作成がで来たらという思いがあったため作成しました。  
+  特にCSVでダウンロード機能を付与したのは事務作業時にCSVとして手元にデータを用意でき  
+  作業性向上に繋がると考えたためです。  
+
+
+## 📕Demo
 [![Image from Gyazo](https://i.gyazo.com/ee4a58158f9b69810cf60a291780d8f3.gif)](https://gyazo.com/ee4a58158f9b69810cf60a291780d8f3)
 
-デモサイト⬇︎  
+🖥デモサイト⬇︎  
 https://easy-quote.herokuapp.com/  
 
-## Usage
+## 📕Usage
 このアプリには下記の機能があります。
 1・見積もり作成  
 2・見積もり詳細確認  
@@ -43,16 +51,11 @@ https://easy-quote.herokuapp.com/
   トップページの左下のCSVダウンロードをクリックして下さい。  
   お使いのブラウザ経由にてダウンロードが開始されます。  
 
-## 制作背景/工夫した点
-  前職で外出機会が多くなかなか事務作業の時間が取れなかったため、  
-  外出先で手軽にメモ感覚の見積もり作成がで来たらという思いがあったため作成しました。  
-  特にCSVでダウンロード機能を付与したのは事務作業時にCSVとして手元にデータを用意でき  
-  作業性向上に繋がると考えたためです。  
 
-## Install
+## 📕Install
 https://github.com/Milia-yuuta/Estimate.git
 
-## Licence
+## 💳Licence
 [Licence](https://raw.githubusercontent.com/Milia-yuuta/Estimate/master/LICENSE)
 
 ## Author
